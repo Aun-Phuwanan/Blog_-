@@ -8,4 +8,5 @@ MQTT ที่เราจะใช้คือ MQTT Mosquitto
 
 เครื่องของผมได้ทำการติดตั้ง ทั้ง 2 อย่างไว้แล้ว  
 # การติดตั้ง mqtt-paho library
-จะใช้คำสั่ง **sudo apt-get install python3-paho-mqtt**
+จะใช้คำสั่ง **sudo apt-get install python3-paho-mqtt**  
+![paho](https://user-images.githubusercontent.com/46487715/110525336-0d41a880-8147-11eb-9083-93fde063e4e5.png)  
