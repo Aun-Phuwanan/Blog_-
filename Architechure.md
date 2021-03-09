@@ -1,5 +1,5 @@
 # System Architechture
-พวกเราได้ทำการศีกษาและลองเล่นอุปกรณ์ต่างๆ เพื่อหาความเหมาะสมของระบบจึงออกแบบ Layer ต่างๆดังนี้  
+![System Architecture](https://user-images.githubusercontent.com/46487715/110239521-e1bd9300-7f79-11eb-9537-cebca6c4992a.png)
 ## User Layer  
  ### ประกอบด้วย 1.Talking 2.Face  
 ## Hardware Layer
