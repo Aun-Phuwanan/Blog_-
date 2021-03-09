@@ -24,7 +24,22 @@ Saramonic Blink 500 B1 Digital Camera-Mount Wireless Omni Lavalier Microphone Sy
 
 - Voice delay：≤6ms
 ### Speaker  
-### Camera  
+### Camera
+Raspberry Pi Camera V2 (8MP)
+![pica](https://user-images.githubusercontent.com/46487715/110543451-eaba8a00-815c-11eb-85f1-d68f00ee2ef2.jpg)
+**Specification**
+
+- Sensor: Sony IMX219
+- Sensor Resolution: 32480 x 2464 (8 megapixels)
+- Sensor Image Area: 3.69 x 2.81 mm
+- Pixel Size: 1.12um x 1.12um
+- Optical Size: 1/4”
+- Video:Dimension: 25mm x 23mm x 9mm / 0.98” x 0.90” x 0.35”
+- 1920 x 1080 (1080p), 30 fps
+- 1280 x 720 (720p), 60 fps
+- 640 x 480 (480p), 90 fps
+ 
+Weight: (Camera board + attached cable): 3.4g
 ### Servo  
 dynamixel ax-12A
 ![Dynamixel](https://user-images.githubusercontent.com/46487715/110541907-f7d67980-815a-11eb-9746-f65368126baa.jpeg)  
