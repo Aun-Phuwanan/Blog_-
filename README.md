@@ -10,7 +10,7 @@
  # [System Overview](https://github.com/5A681/Blog_-/blob/main/SystemOverview.md)
  
  # ขั้นตอนการพัฒนาระบบ
- # OpenCV
+ # [OpenCV](https://github.com/5A681/Blog_-/blob/main/OpenCV.md)
   เราจะใช้ OpenCV ในการใช้งานสำหรับการมองเห็นของ FOBI
   โดย เราจะทำการ ตรวจจับใบหน้าและสีผิว เพื่อระบุว่าสิ่งที่มองเห็นเป็นคนหรือไม่
    
