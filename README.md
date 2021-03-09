@@ -23,3 +23,6 @@ brain จะทำหน้าที่คอยรับค่าจาก back
 
 # การทำงานของ Listening  
   Listening จะคอยรับคำสั่งจากมนุษย์และจะแปลงไฟล์เสียงเป็นไฟล์ Text เพื่อส่งไปให้ Brain ตัดสินใจในการทำงาน
+  
+ลิงค์ตัวอย่างการทำงานของ FOBI   
+ https://drive.google.com/file/d/1U_sY8gIvmVyEVGUNKW4nwyWe5BRMISXs/view?usp=sharing
