@@ -21,7 +21,7 @@
    **บรรทัดที่ 31** เป็นการแสดงภาพปกติ  
    **บรรทัดที่ 31** เป็นการแสดงภาพที่ผ่านการแปลงสี  
    โปรแกรมจะ Loop ไปจนกว่า key จะเท่ากับ 27 หรือกด esc
-   #### [โค้ดเต็ม](https://github.com/5A681/Blog_-/blob/main/colorsSkin.py)
+   #### [Code link](https://github.com/5A681/Blog_-/blob/main/colorsSkin.py)
    #### ตัวอย่างที่ทำได้
    ![Skin](https://user-images.githubusercontent.com/46487715/110509831-1f1a5000-8135-11eb-915d-988ab59b03c4.png)  
    
