@@ -14,4 +14,10 @@ MQTT ที่เราจะใช้คือ MQTT Mosquitto
 ![code](https://user-images.githubusercontent.com/46487715/110526931-f7cd7e00-8148-11eb-9986-e8b2ddaa8eae.png) 
 #### [link code](https://github.com/5A681/Blog_-/blob/main/mqtt_sub.py)
 ### ลองรับข้อมูลจากการส่งผ่าน terminal  
-![test](https://user-images.githubusercontent.com/46487715/110526586-8c83ac00-8148-11eb-90bb-e99805759a62.png)
+![test](https://user-images.githubusercontent.com/46487715/110526586-8c83ac00-8148-11eb-90bb-e99805759a62.png)  
+# การเขียน Subscribe  
+![codesub](https://user-images.githubusercontent.com/46487715/110529524-f2bdfe00-814b-11eb-897c-e95003949c8e.png) 
+#### [link code](https://github.com/5A681/Blog_-/blob/main/mqtt_pub.py)
+### ลองรับข้อมูลจาก terminalด้วยการส่งจากโค้ด  
+![test](https://user-images.githubusercontent.com/46487715/110529561-fbaecf80-814b-11eb-8551-85fd249d52d0.png)
+
