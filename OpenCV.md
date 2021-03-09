@@ -22,6 +22,7 @@
    **บรรทัดที่ 31** เป็นการแสดงภาพที่ผ่านการแปลงสี  
    
    โปรแกรมจะ Loop ไปจนกว่า key จะเท่ากับ 27 หรือกด esc  
+   #### ตัวอย่างที่ทำได้
    ![Skin](https://user-images.githubusercontent.com/46487715/110509831-1f1a5000-8135-11eb-915d-988ab59b03c4.png)  
    
    และใช้ haarcascades จาก https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt2.xml
