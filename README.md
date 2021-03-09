@@ -5,7 +5,7 @@
  - เล่นมุกตลกได้
  - ควบคุมอุปกรณ์ IoT ได้
  # การออกแบบและพัฒนาระบบ
- # [System Architecture](https://github.com/5A681/Blog_-/blob/main/Architechure.md)
+ # [System Architecture](https://github.com/5A681/Blog_-/blob/main/Architechture.md)
  
  # [System Overview](https://github.com/5A681/Blog_-/blob/main/README.md)
  
