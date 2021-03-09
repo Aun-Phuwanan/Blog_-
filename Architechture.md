@@ -11,3 +11,4 @@
  
  # การทำงาน  
  - เมื่อ User มีการพูดก็จะมี Hardware ที่ทำการรับเสียงก็คือ Microphone เมื่อ Microphone ได้รับส่งไฟล์เสียงไปให้ Service Google Cloud Speech
+ - เมื่อ Camera เจอ หน้า Userก็จะส่งข้อมูลไปให้กับ Controller
