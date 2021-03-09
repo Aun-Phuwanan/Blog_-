@@ -4,7 +4,7 @@
  - หันหน้าตามคนได้
  - เล่นมุกตลกได้
  - ควบคุมอุปกรณ์ IoT ได้
- 
+ # การออกแบบและพัฒนาระบบ
  # [System Architecture](https://github.com/5A681/Blog_-/blob/main/Architechure.md)
  ![System Architecture](https://user-images.githubusercontent.com/46487715/110239521-e1bd9300-7f79-11eb-9537-cebca6c4992a.png)
  # [System Overview](https://github.com/5A681/Blog_-/blob/main/README.md)
