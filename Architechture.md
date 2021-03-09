@@ -10,5 +10,5 @@
  ### ประกอบด้วย 1.Brain 2.Listening 3.Motor 4.Question
  
  # การทำงาน  
- - เมื่อ User มีการพูดก็จะมี Hardware ที่ทำการรับเสียงก็คือ Microphone เมื่อ Microphone ได้รับส่งไฟล์เสียงไปให้ Service Google Cloud Speech
+ - เมื่อ User มีการพูดก็จะมี Hardware ที่ทำการรับเสียงก็คือ Microphone เมื่อ Microphone ได้รับส่งไฟล์เสียงไปให้ Service Google Cloud Speech เพื่อที่จะแปลงเป็น text แล้ว่สงไปให้ Controller
  - เมื่อ Camera เจอ หน้า Userก็จะส่งข้อมูลไปให้กับ Controller
