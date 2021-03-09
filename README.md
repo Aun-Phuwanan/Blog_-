@@ -7,7 +7,7 @@
  # การออกแบบและพัฒนาระบบ
  # [System Architecture](https://github.com/5A681/Blog_-/blob/main/Architechture.md)
  
- # [System Overview](https://github.com/5A681/Blog_-/blob/main/README.md)
+ # [System Overview](https://github.com/5A681/Blog_-/blob/main/SystemOverview.md)
  
  # ขั้นตอนการพัฒนาระบบ
  # OpenCV
