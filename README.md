@@ -13,7 +13,8 @@
  ## [OpenCV](https://github.com/5A681/Blog_-/blob/main/OpenCV.md)  
    เราจะใช้ OpenCV ในการใช้งานสำหรับการมองเห็นของ FOBI โดย เราจะทำการ ตรวจจับใบหน้าและสีผิว เพื่อระบุว่าสิ่งที่มองเห็นเป็นคนหรือไม่  
      
- ## [Dynamixel](https://github.com/5A681/Blog_-/blob/main/Dynamixel.md)
+ ## [Dynamixel](https://github.com/5A681/Blog_-/blob/main/Dynamixel.md)  
+ ใช้สำหรับการเคลื่อนไหวของ FOBI เป็นการหันหัวตาแกน x,y
  ## [MQTT](https://github.com/5A681/Blog_-/blob/main/MQTT.md  )  
    ในกาทำ FOBI โปรโตคอลที่เราใช้สื่อสารระหว่างโมดูลจะเป็น MQTT Mosquitto
  ## Google Cloud Service  
