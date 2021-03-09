@@ -23,7 +23,32 @@ Saramonic Blink 500 B1 Digital Camera-Mount Wireless Omni Lavalier Microphone Sy
 - Distortion: ≤0.1%
 
 - Voice delay：≤6ms
-
+### Speaker  
+### Camera  
+### Servo  
+dynamixel ax-12A
+![Dynamixel](https://user-images.githubusercontent.com/46487715/110541907-f7d67980-815a-11eb-9746-f65368126baa.jpeg)  
+**Specifications**
+- Baud Rate	7843 bps ~ 1 Mbps
+- Weight	53.5g(AX-12, AX-12+), 54.6g(AX-12A)
+- Dimensions (W x H x D)	32mm x 50mm x 40mm 1.26 X 1.97 X 1.57 [inch]
+- Resolution	0.29 [°]
+- Running Degree	0 [°] ~ 300 [°]
+- Endless Turn
+- Motor	Cored
+- Gear Ratio	254 : 1
+- Stall Torque	1.5 N*m (at 12V, 1.5A)
+- No Load Speed	59rpm (at 12V)
+- Operating Temperature	-5 [°C] ~ +70 [°C]
+- Input Voltage	9.0 ~ 12.0V (Recommended : 11.1V)
+- Command Signal	Digital Packet
+- Protocol Type	Half Duplex Asynchronous Serial Communication
+- (8bit, 1stop, No Parity)
+- Physical Connection	TTL Level Multi Drop Bus
+- ID	254 ID (0~253)
+- Feedback	Position, Temperature, Load, Input Voltage, etc
+- Gear Material	Engineering Plastic(Full)
+- Case Material	Engineering Plastic(Front, Middle, Back)
 # Node-red
 ## ประกอบไปด้วย Module ดังนี้  
 ### 1.Brain ทำหน้าที่ในการควบคุมสถานะต่างๆของ FOBI ให้เป็นลำดับขั้นตอน  
