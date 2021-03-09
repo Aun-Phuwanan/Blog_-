@@ -37,7 +37,7 @@
  ### ขั้นตอนที่ 2 นำ file ไปไว้ folderเดียวกันกับโค้ด  
  ### ขั้นตอนที่ 3 เขียนโค้ด ตามตัวอย่างดังนี้  
  ![FaceCode](https://user-images.githubusercontent.com/46487715/110518555-d071b380-813e-11eb-999a-3bbac35bfac4.png) 
- #### [Code link](https://github.com/5A681/Blog_-/blob/main/SkinDetection.py)   
+ #### [Code link](https://github.com/5A681/Blog_-/blob/main/FaceDetection.py)   
   #### ตัวอย่างที่ทำได้  
  ![facedetection](https://user-images.githubusercontent.com/46487715/110518684-f7c88080-813e-11eb-92ef-748568d8bef9.png)  
  
