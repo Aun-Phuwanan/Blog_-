@@ -13,7 +13,7 @@
  # [OpenCV](https://github.com/5A681/Blog_-/blob/main/OpenCV.md)  
    เราจะใช้ OpenCV ในการใช้งานสำหรับการมองเห็นของ FOBI โดย เราจะทำการ ตรวจจับใบหน้าและสีผิว เพื่อระบุว่าสิ่งที่มองเห็นเป็นคนหรือไม่
  # Google Cloud Service  
- # [Dynamixel](https://github.com/5A681/Blog_-/blob/main/Dynamixel.md)dasdsadas
+ # ![Dynamixel](https://github.com/5A681/Blog_-/blob/main/Dynamixel.md)dasdsadas
  
    # ผลของการพัฒนาระบบ
    
