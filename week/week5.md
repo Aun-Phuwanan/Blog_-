@@ -1,4 +1,4 @@
-### สัปดาห์ 5 ธ.ค 7, 2020 ถึง ธ.ค 9, 2020  
+# สัปดาห์ 5 ธ.ค 7, 2020 ถึง ธ.ค 9, 2020  
 ## (โก้)  
 ### module Brain  
 เริ่มสร้าง module Brain ใน Node-red และสร้าง Subflow ในส่วนของ module Brain Subflow สามารถสร้างได้โดยไปที่ palette แล้วกดที่ Add Subflow และสร้างตาม State Diagram ที่ออกแบบไว้  
