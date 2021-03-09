@@ -10,5 +10,8 @@
  ### ประกอบด้วย 1.Brain 2.Listening 3.Motor 4.Question
  
  # การทำงาน  
- - เมื่อ User มีการพูดก็จะมี Hardware ที่ทำการรับเสียงก็คือ Microphone เมื่อ Microphone ได้รับส่งไฟล์เสียงไปให้ Service Google Cloud Speech เพื่อที่จะแปลงเป็น text แล้ว่สงไปให้ Controller
- - เมื่อ Camera เจอ หน้า Userก็จะส่งข้อมูลไปให้กับ Controller
+ - เมื่อ user พูด Microphone จะได้รับเสียงแล้วส่งไปยัง Service Google Cloud Speech เพื่อแปลงเสียงเป็นข้อความแล้วนำไปประมวณผลที่ Controller Listening Module ถ้าได้รับคำสั่งให้เป็นการพูดก็จะส่งต่อไปยัง speakerและกลับไปหา user
+ - เมื่อ user พูด Microphone จะได้รับเสียงแล้วส่งไปยัง Service Google Cloud Speech เพื่อแปลงเสียงเป็นข้อความแล้วนำไปประมวณผลที่ Controller Listening Module ถ้าได้รับคำสั่งให้เป็นการแสดงผลหลอด LED ก็จะทำการแสดงผลเป็น ไฟและกลับไปหาuser ที่เป็นผู้มองเห็น
+ - เมื่อ user พูด Microphone จะได้รับเสียงแล้วส่งไปยัง Service Google Cloud Speech เพื่อแปลงเสียงเป็นข้อความแล้วนำไปประมวณผลที่ Controller Listening Module ถ้าได้รับคำสั่งเป็นการถ่ายรูป เมื่อถ่ายรูปเสร็จก็จะปริ้นรูปภาพ โดยแดสงผลกลับไปหา user
+ - เมื่อ camera เจอ user ก็จะส่งตำแหน่งไปยังControler Motor Module แล้วก็จะส่งไปยัง servo เพื่อหมุนตาม user
+
