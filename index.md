@@ -12,6 +12,7 @@
  # OpenCV
   เราจะใช้ OpenCV ในการใช้งานสำหรับการมองเห็นของ FOBI
   โดย เราจะทำการ ตรวจจับใบหน้าและสีผิว เพื่อระบุว่าสิ่งที่มองเห็นเป็นคนหรือไม่
+  # ขั้นตอนการพัฒนาระบบ
   ### การติดตั้ง OpenCV
    ใน Raspberry pi นั้น เราจะใช้คำสั่ง sudo apt-get install opencv-python3 สำหรับใช้กับ python3
    และใช้ haarcascades จาก https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt2.xml
