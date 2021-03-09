@@ -30,5 +30,7 @@
    **บรรทัดที่ 14** จำทำการหาตำแหน้ง Contour เพื่อหาตำแหน่งของสีผิว  
    **บรรทัดที่ 19** ทำการวาดรูปสี่เหลี่ยมเมื่อเจอสีผิว  
    #### [Code link](https://github.com/5A681/Blog_-/blob/main/SkinDetection.py)  
+   #### ตัวอย่างที่ทำได้
+   ![Skindetect](https://user-images.githubusercontent.com/46487715/110513984-6571ae00-8139-11eb-87ad-4bf98a1b7636.png)  
    และใช้ haarcascades จาก https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt2.xml
    
