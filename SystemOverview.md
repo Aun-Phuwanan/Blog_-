@@ -4,6 +4,25 @@
 ### Microphone
 Saramonic Blink 500 B1 Digital Camera-Mount Wireless Omni Lavalier Microphone System
 ![Microphone](https://user-images.githubusercontent.com/46487715/110540059-99100080-8158-11eb-997d-2acbfc5e8ee9.jpg)  
+ **Features**
+
+- Dual Channel Transmitter
+
+- Built in rechargeable lithium battery
+
+- Working distance: 30m (with obstacle)
+
+- Carrier Frequency: 2.4GHz
+
+- Signal to noise ratio: ≥70dB
+
+- Reference audio input: -30~42dBv(MIC input, 0dB attenuation)
+
+- Frequency response: 20Hz~16kHz
+
+- Distortion: ≤0.1%
+
+- Voice delay：≤6ms
 
 # Node-red
 ## ประกอบไปด้วย Module ดังนี้  
