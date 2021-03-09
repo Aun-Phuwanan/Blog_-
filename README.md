@@ -19,11 +19,12 @@ brain จะทำหน้าที่คอยรับค่าจาก back
 
 # การทำงานของ Motor
  จะคอยรับคำสั่งจาก backend Eye โดยตรง เพื่อทำการหมุนโดยทันที่เมื่อเห็นคนโดยไม่มีเงื่อนไขใดๆ  
- แต่ถ้า backend Eye มองไม่เห็น ก็จะได้รับคำสั่งจาก Brain แทนในการหมุนเพื่อมองหาคน
- เช่น
+ แต่ถ้า backend Eye มองไม่เห็น ก็จะได้รับคำสั่งจาก Brain แทนในการหมุนเพื่อมองหาคน  
+ โค้ดการทำงานของ Motor https://github.com/5A681/Blog_-/blob/main/FOBI_File/FobiDynamixel.py
 
 # การทำงานของ Listening  
   Listening จะคอยรับคำสั่งจากมนุษย์และจะแปลงไฟล์เสียงเป็นไฟล์ Text เพื่อส่งไปให้ Brain ตัดสินใจในการทำงาน
+  โค้ดการทำงานของ Listening https://github.com/5A681/Blog_-/blob/main/FOBI_File/Listening.py
   
 ลิงค์ตัวอย่างการทำงานของ FOBI   
  https://drive.google.com/file/d/1U_sY8gIvmVyEVGUNKW4nwyWe5BRMISXs/view?usp=sharing
