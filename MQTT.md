@@ -11,5 +11,6 @@ MQTT ที่เราจะใช้คือ MQTT Mosquitto
 จะใช้คำสั่ง **sudo apt-get install python3-paho-mqtt**  
 ![paho](https://user-images.githubusercontent.com/46487715/110525336-0d41a880-8147-11eb-9083-93fde063e4e5.png)  
 # การเขียน Subscribe  
-![](https://user-images.githubusercontent.com/46487715/110526931-f7cd7e00-8148-11eb-9986-e8b2ddaa8eae.png)  
-
+![code](https://user-images.githubusercontent.com/46487715/110526931-f7cd7e00-8148-11eb-9986-e8b2ddaa8eae.png)  
+### ลองรับข้อมูลจากการส่งผ่าน terminal  
+![test](https://user-images.githubusercontent.com/46487715/110526586-8c83ac00-8148-11eb-90bb-e99805759a62.png)
