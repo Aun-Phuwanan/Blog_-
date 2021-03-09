@@ -6,7 +6,8 @@
 ## การทำ Skin Detection  
  ### ขั้นตอนที่ 1
    เราจะทำการหาค่า hsv_min และ hsv_max เพื่อหาค่าสีของสีผิวและในตอนนี้เราก็จะใช้ OpenCV ที่เราได้ติดตั้งไว้มาใช้งาน และในกรณีนี้  
-   เราจะใช้ Trackbar เพื่อให้งายในการหาค่าสีผิว  
+   เราจะใช้ Trackbar เพื่อให้งายในการหาค่าสีผิวตามโค้ดตัวอย่าง  
+   ![Trackber](https://user-images.githubusercontent.com/46487715/110504429-bd0b1c00-812f-11eb-9a09-dd4bea416998.png)  
    
    และใช้ haarcascades จาก https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt2.xml
    
