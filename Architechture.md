@@ -8,8 +8,8 @@
  ### ประกอบด้วย Google Service  
 ## Controller Layer  
  ### ประกอบด้วย 1.Brain 2.Listening 3.Motor 4.Question
- 
- # การทำงาน  
+ # ทำไม Architecture ถึงต้องเป็นรูปนี้
+ ## การทำงาน  
  - เมื่อ user พูด Microphone จะได้รับเสียงแล้วส่งไปยัง Service Google Cloud Speech เพื่อแปลงเสียงเป็นข้อความแล้วนำไปประมวณผลที่ Controller Listening Module ถ้าได้รับคำสั่งให้เป็นการพูดก็จะส่งต่อไปยัง speakerและกลับไปหา user
  - เมื่อ user พูด Microphone จะได้รับเสียงแล้วส่งไปยัง Service Google Cloud Speech เพื่อแปลงเสียงเป็นข้อความแล้วนำไปประมวณผลที่ Controller Listening Module ถ้าได้รับคำสั่งให้เป็นการแสดงผลหลอด LED ก็จะทำการแสดงผลเป็น ไฟและกลับไปหาuser ที่เป็นผู้มองเห็น
  - เมื่อ user พูด Microphone จะได้รับเสียงแล้วส่งไปยัง Service Google Cloud Speech เพื่อแปลงเสียงเป็นข้อความแล้วนำไปประมวณผลที่ Controller Listening Module ถ้าได้รับคำสั่งเป็นการถ่ายรูป เมื่อถ่ายรูปเสร็จก็จะปริ้นรูปภาพ โดยแดสงผลกลับไปหา user
