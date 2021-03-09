@@ -35,8 +35,7 @@
  โค้ดการทำงานของ Motor https://github.com/5A681/Blog_-/blob/main/FOBI_File/FobiDynamixel.py
 
 # การทำงานของ Listening  
-  Listening จะคอยรับคำสั่งจากมนุษย์และจะแปลงไฟล์เสียงเป็นไฟล์ Text เพื่อส่งไปให้ Brain ตัดสินใจในการทำงาน
-  โค้ดการทำงานของ Listening https://github.com/5A681/Blog_-/blob/main/FOBI_File/Listening.py
+  Listening จะคอยรับข้อความจาก backend/listening/text เพื่อมาคัดแยกข้อความว่าเป็นข้อความชนิดใดเมื่อคัดแยกข้อความเสร็จแล้วถึงจะส่งไปให้ Module Brain 
   
 ลิงค์ตัวอย่างการทำงานของ FOBI   
  https://drive.google.com/file/d/1U_sY8gIvmVyEVGUNKW4nwyWe5BRMISXs/view?usp=sharing
