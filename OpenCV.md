@@ -8,7 +8,7 @@
    เราจะทำการหาค่า hsv_min และ hsv_max เพื่อหาค่าสีของสีผิวและในตอนนี้เราก็จะใช้ OpenCV ที่เราได้ติดตั้งไว้มาใช้งาน และในกรณีนี้  
    เราจะใช้ Trackbar เพื่อให้งายในการหาค่าสีผิวตามโค้ดตัวอย่าง  
    ![Trackbฟr](https://user-images.githubusercontent.com/46487715/110504429-bd0b1c00-812f-11eb-9a09-dd4bea416998.png)  
-   **บรรทัดที่ 4** หน้าwindowของ Trackbar และจะต้องใส่ชื่อของ window นั้นด้วย 
+   **บรรทัดที่ 4** หน้าwindowของ Trackbar และจะต้องใส่ชื่อของ window นั้นด้วย   
    **บรรัดที่ 7-12** จะเป็นการสร้าง Trackbar ทั้งหมด 6 Trackbar paramete ที่ต้องใส่คือ ชื่อ Trackbar,window,ค่าต่ำสุด,ค่าสูงสุด และฟังก์ชันที่ต้องการเรียกเมื่อค่าเปลี่ยน  
    
    และใช้ haarcascades จาก https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt2.xml
