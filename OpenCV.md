@@ -24,6 +24,11 @@
    #### [Code link](https://github.com/5A681/Blog_-/blob/main/colorsSkin.py)
    #### ตัวอย่างที่ทำได้
    ![Skin](https://user-images.githubusercontent.com/46487715/110509831-1f1a5000-8135-11eb-915d-988ab59b03c4.png)  
+  ### ขั้นตอนที่ 2
+   เราจะต้องตำค่า min และ maxของ hsv ที่ได้มาเพื่อหาตำแหน่ง contour ดังนี้  
+   ![Contour](https://user-images.githubusercontent.com/46487715/110513881-4bd06680-8139-11eb-8525-45daa4e2ef57.png)  
+   **บรรทัดที่ 14** จำทำการหาตำแหน้ง Contour เพื่อหาตำแหน่งของสีผิว  
+   **บรรทัดที่ 19** ทำการวาดรูปสี่เหลี่ยมเมื่อเจอสีผิว  
    
    และใช้ haarcascades จาก https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt2.xml
    
