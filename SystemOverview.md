@@ -1,7 +1,8 @@
 ![System Overview](https://user-images.githubusercontent.com/46487715/109979637-ae88c300-7d31-11eb-89a2-efba68d0a19a.png) 
 # Raspberry Pi ตัวที่ 1   
 ### ทำหน้าที่ Run Node-red และควบคุม Hardware ที่ประกอบไปด้วย Microphone,Speaker,Camera และ servo  
-### Mivrophone
+### Microphone
+Saramonic Blink 500 B1 Digital Camera-Mount Wireless Omni Lavalier Microphone System
 ![Microphone](https://user-images.githubusercontent.com/46487715/110540059-99100080-8158-11eb-997d-2acbfc5e8ee9.jpg)  
 
 # Node-red
@@ -12,7 +13,8 @@
 ### 4.ALL_INIT ทำหน้าที่เก็บค่าเริ่มต้นต่างๆไว้  
 
 # Raspberry Pi ตัวที่ 2  
-### ทำหน้าที่ ควบคุม LED และ Printer 
+### ทำหน้าที่ ควบคุม LED และ Printer
+
 
 
 # การทำงานของ Brain  
