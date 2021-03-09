@@ -5,18 +5,18 @@
  - เล่นมุกตลกได้
  - ควบคุมอุปกรณ์ IoT ได้
  # การออกแบบและพัฒนาระบบ
- # [System Architecture](https://github.com/5A681/Blog_-/blob/main/Architechture.md)
+ ## [System Architecture](https://github.com/5A681/Blog_-/blob/main/Architechture.md)
  
- # [System Overview](https://github.com/5A681/Blog_-/blob/main/SystemOverview.md)
+ ## [System Overview](https://github.com/5A681/Blog_-/blob/main/SystemOverview.md)
  
  # ขั้นตอนการพัฒนาระบบ
- # [OpenCV](https://github.com/5A681/Blog_-/blob/main/OpenCV.md)  
+ ## [OpenCV](https://github.com/5A681/Blog_-/blob/main/OpenCV.md)  
    เราจะใช้ OpenCV ในการใช้งานสำหรับการมองเห็นของ FOBI โดย เราจะทำการ ตรวจจับใบหน้าและสีผิว เพื่อระบุว่าสิ่งที่มองเห็นเป็นคนหรือไม่
- # [Dynamixel](https://github.com/5A681/Blog_-/blob/main/Dynamixel.md)
- # [MQTT](https://github.com/5A681/Blog_-/blob/main/MQTT.md  )  
+ ## [Dynamixel](https://github.com/5A681/Blog_-/blob/main/Dynamixel.md)
+ ## [MQTT](https://github.com/5A681/Blog_-/blob/main/MQTT.md  )  
    ในกาทำ FOBI โปรโตคอลที่เราใช้สื่อสารระหว่างโมดูลจะเป็น MQTT Mosquitto
- # Google Cloud Service  
- # [Node-red](https://github.com/5A681/Blog_-/blob/main/Node_red.md)
+ ## Google Cloud Service  
+ ## [Node-red](https://github.com/5A681/Blog_-/blob/main/Node_red.md)
  
    # ผลของการพัฒนาระบบ
    
