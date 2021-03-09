@@ -6,7 +6,8 @@
 
 ตัวอย่าง  
 ![image](https://user-images.githubusercontent.com/65691345/110546403-ff008600-8160-11eb-88fa-4d78eb89cd30.png)  
-
+ 
+จากตัวอย่างจะเห็นได้ว่าได้ทำการทดลองบันทึกเสียง 5 วินาที บันทึกเป็นไฟล์ output.wav หากต้องการมากกว่า 5 วิ สามารถปรับได้ที่ RECORD_SECONDS และ CHANNELS เลือกเป็นสเตอริโอ (2 แชนเนล) ส่วน Portaudio Formats ใช้เป็น paInt16 
 
 ## (โก้)  
 ### OpenCV  
