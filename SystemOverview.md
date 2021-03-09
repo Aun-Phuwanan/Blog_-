@@ -37,5 +37,8 @@
 # การทำงานของ Listening  
   Listening จะคอยรับข้อความจาก backend/listening/text เพื่อมาคัดแยกข้อความว่าเป็นข้อความชนิดใดเมื่อคัดแยกข้อความเสร็จแล้วถึงจะส่งไปให้ Module Brain 
   
+   ### การทำงานใน Node-red
+  https://user-images.githubusercontent.com/46487715/110457692-7dc3d780-80fd-11eb-96b5-d3f30aae8b80.png
+  
 ลิงค์ตัวอย่างการทำงานของ FOBI   
  https://drive.google.com/file/d/1U_sY8gIvmVyEVGUNKW4nwyWe5BRMISXs/view?usp=sharing
