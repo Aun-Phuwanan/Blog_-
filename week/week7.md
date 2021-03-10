@@ -1,20 +1,50 @@
 # สัปดาห์ 7 ธ.ค 21, 2020 ถึง ธ.ค 29, 2020  
 ## (อั๋น)  
 # printer  
-ในส่วนของการพูดนั้นได้เปลี่ยน Library มาใช้ pyaudio เหมือนเดิมเนื่องจากเสียงที่จับได้บ้างและจับไม่ได้บ้างทำให้เกินปัญหาและได้อัดเสียงเพื่อใช้ในการเล่นไฟล์เสียงในการถามตอบและได้เพิ่มคำสั่งถ่ายรูป  
-![image](https://user-images.githubusercontent.com/65691345/110540532-2fdcbd00-8159-11eb-9c04-f1a5e6045837.png)  
-
-
-### Speech recognition  
-ในส่วนของเสียงได้เปลี่ยนจาก Library Speech recognition เป็น Library Pyaudio อีกครั้ง เพราะว่าเมื่อเลิกพูดแต่มีเสียงแค่นิดเดียวก็จะยังจับเสียงต่อไม่บันทึกไฟล์เสียงให้แต่ Library Pyaudio 
-สามารถปรับแต่งอะไรได้ง่ายกว่า Library Speech recognition และเปลี่ยนจากการใช้ Library Pyaudio เป็นคำสั่ง Command-line เหมือนเดิมเนื่องจากคำสั่ง Command-line สั้นละเรียกใช้สะดวกกว่า Library Pyaudio  
-![image](https://user-images.githubusercontent.com/65691345/110540674-5c90d480-8159-11eb-9891-2b3ec163ac48.png)
-
-
-
-ทดสอบ MQTT จาก Node-red ส่งไปที่ printer  
-
+ได้เพิ่มคำสั่งในการถ่ายรูปโดยใช้คำสั่งเสียงในการสั่ง ได้ทดสอบ MQTT จาก Node-red ส่งไปที่ printer  
 ![image](https://user-images.githubusercontent.com/65691345/110540563-39febb80-8159-11eb-9c98-c039a0e380ae.png)  
+
+ตัวอย่าง 
+```python
+import os
+import paho.mqtt.client as mqtt
+
+def on_connect(client,userdata,flags,rc):
+    client.subscribe("module/camera/request")
+
+def on_message(client,userdata,msg):
+    message = msg.payload.decode('utf-8')
+    if msg.topic == "module/camera/request":
+        cmd = "python ther_pnter.py"
+        os.system(cmd)
+    
+
+
+client = mqtt.Client()
+client.username_pw_set("username",password="hcilab")
+client.on_connect = on_connect
+client.on_message = on_message
+
+client.connect("192.168.137.188",1883,60)
+client.loop_forever()
+client.disconnect()
+```
+
+
+### Pyaudio  
+ในส่วนนี้ได้เพิ่มโค้ดเข้ามาใหม่ เพื่อจะใช้การจับเสียงพูดแท่นการตั้งเวลาในการอัดเสียง โดยใช้ Library numpy ในการคำนวณหาค่าสูงสุดเพื่อหาค่าของเลเวลของเสียงแล้วนำมาใช้ในการจับเสียงพูด
+```python
+
+import math, numpy as np
+
+data = stream.read(CHUNK, exception_on_overflow=False)
+data_conv  = np.fromstring(data, dtype=np.int16)
+max = np.max(data_conv)     
+frames.append(data)
+```
+
+
+
 
 ## (โก้)  
 # Module Motor  
