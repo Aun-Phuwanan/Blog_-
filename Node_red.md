@@ -8,4 +8,6 @@
 เมื่อเราติดตั้งเสร็จแล้ว ลอง Run ดู  
 ![run](https://user-images.githubusercontent.com/46487715/110566654-ee610780-8182-11eb-89ea-d571698c955e.png)  
 แล้วลองเบิด browser ดู โดยใช้ Localhost:1880  
-![Runnode](https://user-images.githubusercontent.com/46487715/110566909-426bec00-8183-11eb-930f-bd115b08e656.png)
+![Runnode](https://user-images.githubusercontent.com/46487715/110566909-426bec00-8183-11eb-930f-bd115b08e656.png)  
+ลองสร้างsubflow สำหรับใช้งานใน brain  
+![subflow](https://user-images.githubusercontent.com/46487715/110567167-aa223700-8183-11eb-94cf-865c00ded5e6.png)
