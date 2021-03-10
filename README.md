@@ -17,7 +17,6 @@
  ใช้สำหรับการเคลื่อนไหวของ FOBI เป็นการหันหัวตาแกน x,y
  ## [MQTT](https://github.com/5A681/Blog_-/blob/main/MQTT.md  )  
    ในกาทำ FOBI โปรโตคอลที่เราใช้สื่อสารระหว่างโมดูลจะเป็น MQTT Mosquitto
- ## Google Cloud Service  
  ## [Node-red](https://github.com/5A681/Blog_-/blob/main/Node_red.md)
  
    # ผลของการพัฒนาระบบ
