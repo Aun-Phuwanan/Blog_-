@@ -1,5 +1,5 @@
 Pyaudio
-สัปดานี้ได้เริ่มศึกษาเกี่ยวกับ Library ที่ใช้บันทึกไฟล์เสียงจากการพูดและได้เลือกใช้ Library PyAudio เพื่อเอาเสียงพูดบันทึกเป็นไฟล์เสียง (.wav)
+ศึกษาเกี่ยวกับ Library ที่ใช้บันทึกไฟล์เสียงจากการพูดและได้เลือกใช้ Library PyAudio เพื่อเอาเสียงพูดบันทึกเป็นไฟล์เสียง (.wav)
 ```python
 import pyaudio
 import wave
@@ -31,18 +31,6 @@ for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
     frames.append(data)
 
 print("* done recording")
-r = sr.Recognizer()
-with sr.AudioFile("output.wav") as source:   
-audio = r.record(source)
-try:    
-    text = r.recognize_google(audio)
-
-except Exception as e:
-     print("bb")
-
-if text == "สวัสดี":
-    cmd = "Play {}".format(Hello.wav)
-    os.system(cmd)
 
 stream.stop_stream()
 stream.close()
@@ -57,4 +45,18 @@ wf.close()
 ```
 
 จากตัวอย่างจะเห็นได้ว่าได้ทำการทดลองบันทึกเสียง 5 วินาที บันทึกเป็นไฟล์ output.wav หากต้องการมากกว่า 5 วิ สามารถปรับได้ที่ 
-RECORD_SECONDS และ CHANNELS เลือกเป็นสเตอริโอ (2 แชนเนล) ส่วน Portaudio Formats ใช้เป็น paInt16
+RECORD_SECONDS 
+  
+### ทำจับเสียงพูด
+
+เพื่อจะใช้การจับเสียงพูดแท่นการตั้งเวลาในการอัดเสียง โดยใช้ Library numpy ในการคำนวณหาค่าสูงสุดเพื่อหาค่าของเลเวลของเสียงแล้วนำมาใช้ในการจับเสียงพูด
+
+```python
+import math, numpy as np
+
+data = stream.read(CHUNK, exception_on_overflow=False)
+data_conv  = np.fromstring(data, dtype=np.int16)
+max = np.max(data_conv)     
+frames.append(data)
+
+```
